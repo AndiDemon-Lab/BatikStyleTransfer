@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from run_paired_batch import PairedBatchRunner
+from batch_runner.run_paired_batch import PairedBatchRunner
 from analysis.data_aggregator import ResultsAggregator
 
 
