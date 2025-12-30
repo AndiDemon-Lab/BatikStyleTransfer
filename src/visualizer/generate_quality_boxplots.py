@@ -1,8 +1,3 @@
-"""
-Generate box plots for quality metrics only (SSIM, PSNR, LPIPS).
-Training time will be in separate visualization.
-"""
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns

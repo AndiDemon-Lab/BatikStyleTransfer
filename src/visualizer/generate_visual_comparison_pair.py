@@ -4,9 +4,6 @@ Shows content, style, and final outputs (epoch 5000) from all 5 models.
 
 Usage:
     python generate_visual_comparison_pair.py <pair_number>
-    python generate_visual_comparison_pair.py 13
-    python generate_visual_comparison_pair.py 28
-    python generate_visual_comparison_pair.py 42
 """
 
 from PIL import Image

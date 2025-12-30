@@ -1,8 +1,3 @@
-"""
-Generate clean loss convergence plot comparing architectures.
-Focus on total loss only, no content/style breakdown.
-"""
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns

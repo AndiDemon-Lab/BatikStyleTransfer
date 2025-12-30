@@ -1,8 +1,3 @@
-"""
-Generate visual comparison showing epoch progression (1500 vs 5000).
-Shows how outputs evolve during training for all 5 models.
-"""
-
 from PIL import Image
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
