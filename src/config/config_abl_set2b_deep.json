@@ -1,0 +1,35 @@
+{
+    "paired_dir": "outputs/hasil",
+    "output_dir": "outputs/ablation_study/set2_layers_deep",
+    "max_epochs": 5000,
+    "save_epochs": [
+        5000
+    ],
+    "metric_epochs": 500,
+    "subset_config": {
+        "enabled": true,
+        "pair_ids": [
+            1,
+            12,
+            20
+        ],
+        "models": [
+            "vgg19"
+        ]
+    },
+    "models": {
+        "vgg19": {
+            "content_weight": 1,
+            "style_weight": 100000000.0,
+            "learning_rate": 0.05,
+            "pooling": "ori",
+            "content_layers": [
+                3
+            ],
+            "style_layers": [
+                10
+            ],
+            "pretrained_weights_path": null
+        }
+    }
+}

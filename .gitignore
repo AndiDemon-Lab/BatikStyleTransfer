@@ -1,0 +1,25 @@
+data/
+training_assets/saved_models/
+uploads/
+__pycache__/
+*.ipynb
+autotrain_allmodels.py
+PlotNeuralNet/
+*/PlotNeuralNet/
+
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.svg
+*.ico
+
+*/hasil/
+*/outputs/
+outputs/

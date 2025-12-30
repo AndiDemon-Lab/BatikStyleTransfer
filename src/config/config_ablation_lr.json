@@ -1,0 +1,50 @@
+{
+    "paired_dir": "outputs/hasil",
+    "output_dir": "outputs/ablation_study/learning_rates",
+    "max_epochs": 5000,
+    "save_epochs": [
+        5000
+    ],
+    "metric_epochs": 500,
+    "subset_config": {
+        "enabled": true,
+        "pair_ids": [
+            1,
+            12
+        ],
+        "models": [
+            "vgg19_lr_001",
+            "vgg19_lr_01"
+        ]
+    },
+    "models": {
+        "vgg19_lr_001": {
+            "content_weight": 1,
+            "style_weight": 100000000.0,
+            "learning_rate": 0.01,
+            "pooling": "ori",
+            "content_layers": [
+                2
+            ],
+            "style_layers": [
+                8
+            ],
+            "pretrained_weights_path": null,
+            "base_model": "vgg19"
+        },
+        "vgg19_lr_01": {
+            "content_weight": 1,
+            "style_weight": 100000000.0,
+            "learning_rate": 0.1,
+            "pooling": "ori",
+            "content_layers": [
+                2
+            ],
+            "style_layers": [
+                8
+            ],
+            "pretrained_weights_path": null,
+            "base_model": "vgg19"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "Architecture": "VGG19",
+    "Parameters (M)": 20.024384,
+    "FLOPs (G)": 10.116661248,
+    "FLOPs_formatted": "10.117G",
+    "Peak VRAM (GB)": 0.20290899276733398,
+    "Avg Inference Time (ms)": 9.235772005049512,
+    "Std Inference Time (ms)": 0.4823666270365063,
+    "Content Layers": "[2]",
+    "Style Layers": "[8]"
+  },
+  {
+    "Architecture": "VGG16",
+    "Parameters (M)": 14.714688,
+    "FLOPs (G)": 10.116661248,
+    "FLOPs_formatted": "10.117G",
+    "Peak VRAM (GB)": 0.18398332595825195,
+    "Avg Inference Time (ms)": 9.03677600552328,
+    "Std Inference Time (ms)": 0.07206909126554062,
+    "Content Layers": "[2]",
+    "Style Layers": "[8]"
+  },
+  {
+    "Architecture": "RESNET50",
+    "Parameters (M)": 23.508032,
+    "FLOPs (G)": 0.633339904,
+    "FLOPs_formatted": "633.340M",
+    "Peak VRAM (GB)": 0.12198495864868164,
+    "Avg Inference Time (ms)": 1.2795440049376339,
+    "Std Inference Time (ms)": 0.0484271319686263,
+    "Content Layers": "[[2], [-1]]",
+    "Style Layers": "[[2], [-1]]"
+  },
+  {
+    "Architecture": "RESNET101",
+    "Parameters (M)": 42.50016,
+    "FLOPs (G)": 0.633339904,
+    "FLOPs_formatted": "633.340M",
+    "Peak VRAM (GB)": 0.19319915771484375,
+    "Avg Inference Time (ms)": 1.3260240037925541,
+    "Std Inference Time (ms)": 0.07196557699924211,
+    "Content Layers": "[[2], [-1]]",
+    "Style Layers": "[[2], [-1]]"
+  },
+  {
+    "Architecture": "INCEPTION_V3",
+    "Parameters (M)": 21.785568,
+    "FLOPs (G)": 4.082557536,
+    "FLOPs_formatted": "4.083G",
+    "Peak VRAM (GB)": 0.12344789505004883,
+    "Avg Inference Time (ms)": 4.640922003891319,
+    "Std Inference Time (ms)": 0.07033671588374552,
+    "Content Layers": "[4]",
+    "Style Layers": "[8]"
+  }
+]
